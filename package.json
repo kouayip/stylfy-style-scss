@@ -1,0 +1,25 @@
+{
+  "name": "stylfy",
+  "version": "1.0.0",
+  "description": "Stylfy is a modular Css framwork that offers predefined Css classes to facilitate the layout of our html pages.",
+  "main": "index.html",
+  "scripts": {
+    "sass": "node sass -w src/sass -o dist/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kouayip/stylfy-style-scss.git"
+  },
+  "keywords": [
+    "css",
+    "style",
+    "stylfy",
+    "html"
+  ],
+  "author": "yves kams",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/kouayip/stylfy-style-scss/issues"
+  },
+  "homepage": "https://github.com/kouayip/stylfy-style-scss#readme"
+}
