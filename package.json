@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/kouayip/stylfy-style-scss/issues"
   },
-  "homepage": "https://github.com/kouayip/stylfy-style-scss#readme"
+  "homepage": "https://github.com/kouayip/stylfy-style-scss#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
 }
