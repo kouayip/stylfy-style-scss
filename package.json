@@ -4,7 +4,7 @@
   "description": "Stylfy is a modular Css framwork that offers predefined Css classes to facilitate the layout of our html pages.",
   "main": "index.html",
   "scripts": {
-    "sass": "node sass -w src/sass -o dist/css"
+    "sass": "node-sass -w src/sass -o dist/css"
   },
   "repository": {
     "type": "git",
