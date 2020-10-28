@@ -1,0 +1,8 @@
+@import "../mixins/stylfy-generic-size";
+
+@mixin sizing($property) {
+  @include generic-size($property);
+  &-p {
+    @include generic-size($property, false);
+  }
+}

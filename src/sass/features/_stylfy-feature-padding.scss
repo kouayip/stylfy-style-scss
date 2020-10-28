@@ -2,16 +2,16 @@
 
 @mixin padding {
   @include generic-padding();
-  &-tp {
+  &-top {
     @include generic-padding(padding-top);
   }
-  &-lt {
+  &-left {
     @include generic-padding(padding-left);
   }
-  &-bm {
+  &-bottom {
     @include generic-padding(padding-bottom);
   }
-  &-rt {
+  &-right {
     @include generic-padding(padding-right);
   }
 }

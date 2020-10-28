@@ -3,6 +3,7 @@
 @import "features/stylfy-feature-padding";
 @import "features/stylfy-feature-text";
 @import "features/stylfy-feature-font-size";
+@import "features/stylfy-feature-size";
 @import "features/stylfy-feature-media";
 
 //Padding
@@ -39,5 +40,31 @@
 .bg {
   @include responsive {
     @include background-color();
+  }
+}
+
+//Weigth
+.w {
+  @include responsive {
+    @include sizing(width);
+    &-max {
+      @include sizing(max-width);
+    }
+    &-min {
+      @include sizing(min-width);
+    }
+  }
+}
+
+//Height
+.h {
+  @include responsive {
+    @include sizing(height);
+    &-max {
+      @include sizing(max-height);
+    }
+    &-min {
+      @include sizing(min-height);
+    }
   }
 }

@@ -1,0 +1,142 @@
+@mixin generic-size($property, $rem-size: true) {
+  &-5 {
+    @if $rem-size {
+      #{$property}: 5rem;
+    } @else {
+      #{$property}: 5%;
+    }
+  }
+  &-10 {
+    @if $rem-size {
+      #{$property}: 10rem;
+    } @else {
+      #{$property}: 10%;
+    }
+  }
+  &-15 {
+    @if $rem-size {
+      #{$property}: 15rem;
+    } @else {
+      #{$property}: 15%;
+    }
+  }
+  &-20 {
+    @if $rem-size {
+      #{$property}: 20rem;
+    } @else {
+      #{$property}: 20%;
+    }
+  }
+  &-25 {
+    @if $rem-size {
+      #{$property}: 25rem;
+    } @else {
+      #{$property}: 25%;
+    }
+  }
+  &-30 {
+    @if $rem-size {
+      #{$property}: 30rem;
+    } @else {
+      #{$property}: 30%;
+    }
+  }
+  &-35 {
+    @if $rem-size {
+      #{$property}: 35rem;
+    } @else {
+      #{$property}: 35%;
+    }
+  }
+  &-40 {
+    @if $rem-size {
+      #{$property}: 40rem;
+    } @else {
+      #{$property}: 40%;
+    }
+  }
+  &-45 {
+    @if $rem-size {
+      #{$property}: 45rem;
+    } @else {
+      #{$property}: 45%;
+    }
+  }
+  &-50 {
+    @if $rem-size {
+      #{$property}: 50rem;
+    } @else {
+      #{$property}: 50%;
+    }
+  }
+  &-55 {
+    @if $rem-size {
+      #{$property}: 55rem;
+    } @else {
+      #{$property}: 55%;
+    }
+  }
+  &-60 {
+    @if $rem-size {
+      #{$property}: 60rem;
+    } @else {
+      #{$property}: 60%;
+    }
+  }
+  &-65 {
+    @if $rem-size {
+      #{$property}: 65rem;
+    } @else {
+      #{$property}: 65%;
+    }
+  }
+  &-70 {
+    @if $rem-size {
+      #{$property}: 70rem;
+    } @else {
+      #{$property}: 70%;
+    }
+  }
+  &-75 {
+    @if $rem-size {
+      #{$property}: 75rem;
+    } @else {
+      #{$property}: 75%;
+    }
+  }
+  &-80 {
+    @if $rem-size {
+      #{$property}: 80rem;
+    } @else {
+      #{$property}: 80%;
+    }
+  }
+  &-85 {
+    @if $rem-size {
+      #{$property}: 85rem;
+    } @else {
+      #{$property}: 85%;
+    }
+  }
+  &-90 {
+    @if $rem-size {
+      #{$property}: 90rem;
+    } @else {
+      #{$property}: 90%;
+    }
+  }
+  &-95 {
+    @if $rem-size {
+      #{$property}: 95rem;
+    } @else {
+      #{$property}: 95%;
+    }
+  }
+  &-100 {
+    @if $rem-size {
+      #{$property}: 100rem;
+    } @else {
+      #{$property}: 100%;
+    }
+  }
+}
