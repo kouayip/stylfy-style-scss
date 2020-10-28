@@ -1,0 +1,34 @@
+{
+  "Padding": {
+    "default": {
+      "pd": "padding",
+      "pd-tp": "padding-top",
+      "pd-lt": "padding-left",
+      "pd-bm": "padding-bottom",
+      "pd-rt": "padding-right"
+    },
+    "custome": {
+      "pd-": "padding-($size)",
+      "pd-tp-": "padding-top-($size)",
+      "pd-lt-": "padding-left-($size)",
+      "pd-bm-": "padding-bottom-($size)",
+      "pd-rt-": "padding-right-($size)"
+    }
+  },
+  "margin": {
+    "default": {
+      "mg": "margin",
+      "mg-tp": "margin-top",
+      "mg-lt": "margin-left",
+      "mg-bm": "margin-bottom",
+      "mg-rt": "margin-right"
+    },
+    "custome": {
+      "mg-": "margin-($size)",
+      "mg-tp-": "margin-top-($size)",
+      "mg-lt-": "margin-left-($size)",
+      "mg-bm-": "margin-bottom-($size)",
+      "mg-rt-": "margin-right-($size)"
+    }
+  }
+}

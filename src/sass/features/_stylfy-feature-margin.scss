@@ -1,0 +1,17 @@
+@import "../mixins/stylfy-generic-margin";
+
+@mixin margin {
+  @include generic-margin();
+  &-tp {
+    @include generic-margin(margin-top);
+  }
+  &-lt {
+    @include generic-margin(margin-left);
+  }
+  &-bm {
+    @include generic-margin(margin-bottom);
+  }
+  &-rt {
+    @include generic-margin(margin-right);
+  }
+}

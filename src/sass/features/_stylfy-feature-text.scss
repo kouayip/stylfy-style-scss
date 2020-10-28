@@ -8,16 +8,28 @@
   &-st {
     text-align: start;
   }
+  &-lt {
+    text-align: left;
+  }
   &-cr {
     text-align: center;
   }
   &-ed {
     text-align: end;
   }
+  &-rt {
+    text-align: right;
+  }
+  &-jf {
+    text-align: justify;
+  }
 }
 
 @mixin text-decoration {
-  &-underline {
+  &-un {
+    text-decoration: underline;
+  }
+  &-un {
     text-decoration: underline;
   }
 }

@@ -1,4 +1,5 @@
 @import "features/stylfy-feature-background";
+@import "features/stylfy-feature-margin";
 @import "features/stylfy-feature-padding";
 @import "features/stylfy-feature-text";
 @import "features/stylfy-feature-media";
@@ -7,6 +8,13 @@
 .pg {
   @include responsive {
     @include padding();
+  }
+}
+
+//Margin
+.mg {
+  @include responsive {
+    @include margin();
   }
 }
 
