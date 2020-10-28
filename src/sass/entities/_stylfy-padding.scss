@@ -1,0 +1,17 @@
+@import "../mixins/stylfy-generic-padding";
+
+.pg {
+  @include generic-padding(padding);
+  &-tp {
+    @include generic-padding(padding-top);
+  }
+  &-lt {
+    @include generic-padding(padding-left);
+  }
+  &-bm {
+    @include generic-padding(padding-bottom);
+  }
+  &-rt {
+    @include generic-padding(padding-right);
+  }
+}

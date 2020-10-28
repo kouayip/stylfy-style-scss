@@ -1,0 +1,43 @@
+@mixin generic-padding($property) {
+  #{$property}: 1rem;
+
+  &-0 {
+    #{$property}: 0rem;
+  }
+
+  &-2 {
+    #{$property}: 2rem;
+  }
+
+  &-4 {
+    #{$property}: 4rem;
+  }
+
+  &-6 {
+    #{$property}: 6rem;
+  }
+
+  &-8 {
+    #{$property}: 8rem;
+  }
+
+  &-10 {
+    #{$property}: 10rem;
+  }
+
+  &-12 {
+    #{$property}: 12rem;
+  }
+
+  &-24 {
+    #{$property}: 24rem;
+  }
+
+  &-32 {
+    #{$property}: 32rem;
+  }
+
+  &-64 {
+    #{$property}: 64rem;
+  }
+}

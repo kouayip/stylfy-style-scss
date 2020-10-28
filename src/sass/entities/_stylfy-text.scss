@@ -1,18 +1,22 @@
-/*
-  Background
-*/
-.bg {
-  //BLACK
-  &-black {
-    background: $black;
+// TEXT
+.txt {
+  //Text Decoration
+  &-underline {
+    text-decoration: underline;
   }
 
-  //WHITE
-  &-white {
-    background: $white;
+  //Text Align
+  &-start {
+    text-align: start;
+  }
+  &-center {
+    text-align: center;
+  }
+  &-end {
+    text-align: end;
   }
 
-  // GRAY
+  //Text Color gray
   &-gray-50 {
     background: $gray-50;
   }
@@ -44,35 +48,45 @@
     background: $gray-900;
   }
 
-  // BLUE GRAY
+  //Text Color blue gray
   &-blue-gray-50 {
-    background: $blue-gray-50;
+    color: $blue-gray-50;
   }
   &-blue-gray-100 {
-    background: $blue-gray-100;
+    color: $blue-gray-100;
   }
   &-blue-gray-200 {
-    background: $blue-gray-200;
+    color: $blue-gray-200;
   }
   &-blue-gray-300 {
-    background: $blue-gray-300;
+    color: $blue-gray-300;
   }
   &-blue-gray-400 {
-    background: $blue-gray-400;
+    color: $blue-gray-400;
   }
   &-blue-gray-500 {
-    background: $blue-gray-500;
+    color: $blue-gray-500;
   }
   &-blue-gray-600 {
-    background: $blue-gray-600;
+    color: $blue-gray-600;
   }
   &-blue-gray-700 {
-    background: $blue-gray-700;
+    color: $blue-gray-700;
   }
   &-blue-gray-800 {
-    background: $blue-gray-800;
+    color: $blue-gray-800;
   }
   &-blue-gray-900 {
-    background: $blue-gray-900;
+    color: $blue-gray-900;
+  }
+
+  //Text Color black
+  &-black {
+    color: $black;
+  }
+
+  //Text Color white
+  &-white {
+    color: $white;
   }
 }
