@@ -5,6 +5,8 @@ Stylfy is a modular Css framwork that offers predefined Css classes to facilitat
 
 Padding
 
+Margin
+
 Background
 
 Text
