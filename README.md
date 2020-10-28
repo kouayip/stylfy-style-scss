@@ -4,7 +4,11 @@ Stylfy is a modular Css framwork that offers predefined Css classes to facilitat
 ## Guide
 
 Padding
-------------------
+
+pd
+pd-0
+|
+pd-64
 
 Margin
 
