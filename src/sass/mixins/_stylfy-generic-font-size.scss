@@ -1,0 +1,4 @@
+@mixin generic-font-size($size, $height: 1.2) {
+  font-size: #{$size}rem;
+  line-height: #{$height};
+}

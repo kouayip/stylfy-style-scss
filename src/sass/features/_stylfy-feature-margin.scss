@@ -2,16 +2,16 @@
 
 @mixin margin {
   @include generic-margin();
-  &-tp {
+  &-top {
     @include generic-margin(margin-top);
   }
-  &-lt {
+  &-left {
     @include generic-margin(margin-left);
   }
-  &-bm {
+  &-bottom {
     @include generic-margin(margin-bottom);
   }
-  &-rt {
+  &-right {
     @include generic-margin(margin-right);
   }
 }

@@ -1,0 +1,38 @@
+@import "../mixins/stylfy-generic-font-size";
+
+@mixin font-size {
+  @include generic-font-size(1);
+  &-10 {
+    @include generic-font-size(1);
+  }
+  &-12 {
+    @include generic-font-size(1.2);
+  }
+  &-14 {
+    @include generic-font-size(1.4);
+  }
+  &-16 {
+    @include generic-font-size(1.6);
+  }
+  &-18 {
+    @include generic-font-size(1.8);
+  }
+  &-20 {
+    @include generic-font-size(2);
+  }
+  &-22 {
+    @include generic-font-size(2.2);
+  }
+  &-24 {
+    @include generic-font-size(2.4);
+  }
+  &-26 {
+    @include generic-font-size(2.6);
+  }
+  &-28 {
+    @include generic-font-size(2.8);
+  }
+  &-30 {
+    @include generic-font-size(3);
+  }
+}

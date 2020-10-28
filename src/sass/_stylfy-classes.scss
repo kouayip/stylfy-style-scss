@@ -2,10 +2,11 @@
 @import "features/stylfy-feature-margin";
 @import "features/stylfy-feature-padding";
 @import "features/stylfy-feature-text";
+@import "features/stylfy-feature-font-size";
 @import "features/stylfy-feature-media";
 
 //Padding
-.pg {
+.pd {
   @include responsive {
     @include padding();
   }
@@ -24,6 +25,13 @@
     @include text-decoration();
     @include text-align();
     @include text-color();
+  }
+}
+
+//Font size
+.ft-size {
+  @include responsive {
+    @include font-size();
   }
 }
 

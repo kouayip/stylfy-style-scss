@@ -5,31 +5,28 @@
 }
 
 @mixin text-align {
-  &-st {
+  &-start {
     text-align: start;
   }
-  &-lt {
+  &-left {
     text-align: left;
   }
-  &-cr {
+  &-center {
     text-align: center;
   }
-  &-ed {
+  &-end {
     text-align: end;
   }
-  &-rt {
+  &-right {
     text-align: right;
   }
-  &-jf {
+  &-justify {
     text-align: justify;
   }
 }
 
 @mixin text-decoration {
-  &-un {
-    text-decoration: underline;
-  }
-  &-un {
+  &-underline {
     text-decoration: underline;
   }
 }
