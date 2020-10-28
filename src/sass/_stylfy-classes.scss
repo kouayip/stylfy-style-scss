@@ -1,3 +1,27 @@
-@import "entities/stylfy-background";
-@import "entities/stylfy-text";
-@import "entities/stylfy-padding";
+@import "features/stylfy-feature-background";
+@import "features/stylfy-feature-padding";
+@import "features/stylfy-feature-text";
+@import "features/stylfy-feature-media";
+
+//Padding
+.pg {
+  @include responsive {
+    @include padding();
+  }
+}
+
+//Text
+.txt {
+  @include responsive {
+    @include text-decoration();
+    @include text-align();
+    @include text-color();
+  }
+}
+
+//Background
+.bg {
+  @include responsive {
+    @include background-color();
+  }
+}

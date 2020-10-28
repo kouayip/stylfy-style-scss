@@ -1,0 +1,23 @@
+@import "../mixins/stylfy-generic-color";
+
+@mixin text-color {
+  @include generic-color();
+}
+
+@mixin text-align {
+  &-st {
+    text-align: start;
+  }
+  &-cr {
+    text-align: center;
+  }
+  &-ed {
+    text-align: end;
+  }
+}
+
+@mixin text-decoration {
+  &-underline {
+    text-decoration: underline;
+  }
+}

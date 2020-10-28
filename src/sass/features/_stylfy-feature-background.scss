@@ -1,0 +1,5 @@
+@import "../mixins/stylfy-generic-color";
+
+@mixin background-color {
+  @include generic-color(background-color);
+}

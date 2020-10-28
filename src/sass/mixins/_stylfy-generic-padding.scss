@@ -1,4 +1,4 @@
-@mixin generic-padding($property) {
+@mixin generic-padding($property: padding) {
   #{$property}: 1rem;
 
   &-0 {

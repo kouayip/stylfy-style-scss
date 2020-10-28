@@ -1,7 +1,7 @@
 @import "../mixins/stylfy-generic-padding";
 
-.pg {
-  @include generic-padding(padding);
+@mixin padding {
+  @include generic-padding();
   &-tp {
     @include generic-padding(padding-top);
   }

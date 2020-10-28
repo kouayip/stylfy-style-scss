@@ -1,0 +1,23 @@
+@mixin responsive() {
+  @content;
+  @include xs {
+    &-xs {
+      @content;
+    }
+  }
+  @include sm {
+    &-sm {
+      @content;
+    }
+  }
+  @include md {
+    &-md {
+      @content;
+    }
+  }
+  @include xl {
+    &-xl {
+      @content;
+    }
+  }
+}
